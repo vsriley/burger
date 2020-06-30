@@ -8,11 +8,8 @@ The most difficult part of the project has been attempting to get the applicatio
 
 ## Installation
 
-To utilize the project, open in your internet browser through heroku.
+To utilize the project, open in your internet browser through heroku: 
 [Heroku Deployment](https://enigmatic-journey-98023.herokuapp.com/)
-
-## Credits
-
 
 ## License
 
