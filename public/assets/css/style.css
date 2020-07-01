@@ -16,6 +16,15 @@ li {
 
 .form-group {
   margin-bottom: 5px;
+  background: #faebd7;
+}
+
+.label {
+  padding-top: 5px;
+}
+
+.devoured {
+  font-weight: bold;
 }
 
 img {
