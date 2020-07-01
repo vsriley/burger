@@ -7,6 +7,28 @@
   </div>
 </div>
 <div class="row">
+  <div class="col-md-3">
+    <h2>Add a Burger</h2>
+  </div>
+  <div class="col-md-5">
+    <form class="create-form">
+
+      <div class="form-group">
+        <label for="ca">Burger Name:</label>
+        <input type="text" id="ca" name="burger_name">
+      </div>
+
+      <div class="form-group">
+        <label for="devoured">Devoured?</label><br>
+        <input type="radio" name="devoured" value="1" checked> Devoured!<br>
+        <input type="radio" name="devoured" value="0"> Not yet Eaten
+      </div>
+
+      <button type="submit" class="btn btn-secondary">Add Burger</button>
+    </form>
+  </div>
+</div>
+<div class="row">
   <div class="col-md-6">
     <h2>Burgers yet to be eaten!</h2>
     <ul>
@@ -28,20 +50,3 @@
     </ul>
   </div>
 </div>
-
-<h2>Add a Burger</h2>
-<form class="create-form">
-
-  <div class="form-group">
-    <label for="ca">Burger Name:</label>
-    <input type="text" id="ca" name="burger_name">
-  </div>
-
-  <div class="form-group">
-    <label for="devoured">Devoured?</label><br>
-    <input type="radio" name="devoured" value="1" checked> Devoured!<br>
-    <input type="radio" name="devoured" value="0"> Not yet Eaten
-  </div>
-
-  <button type="submit" class="btn btn-secondary">Add Burger</button>
-</form>
